@@ -25,7 +25,7 @@ public class SeleniumTest
         
         Autorization();
         
-        var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(1000));
+        var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
         wait.Until(ExpectedConditions.UrlContains("https://staff-testing.testkontur.ru/news"));
     }
     
